@@ -1,7 +1,7 @@
 /*
 Covid19 Data Exploration
 
-Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+Skills demonstrated: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 
 */
 
@@ -38,7 +38,7 @@ FROM `portfolioproject-335318.covid.CovidDeaths`
 --WHERE location LIKE 'United States'
 ORDER BY 1,2
 
---Countries with Highest Infection Rate compared to Population
+--Countries with Highest Infection Rate vs Population
 
 SELECT location, MAX(total_cases) as HighestInfectionCount, population, MAX((total_cases/population))*100 AS PercentPopulationInfected
 FROM `portfolioproject-335318.covid.CovidDeaths`
