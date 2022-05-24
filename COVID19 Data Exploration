@@ -1,8 +1,5 @@
 /*
-Covid19 Data Exploration
-
-Skills demonstrated: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
-
+COVID19 Data Exploration
 */
 
 SELECT *
